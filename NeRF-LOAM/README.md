@@ -1,6 +1,7 @@
 ## NeRF-LOAM
 NeRF-LOAM has many system level dependencies and is a bit hard to build in docker. 
-We provide a Dockerfile, a script to build the docker image, and a script to run the evaluation on all LiDAR data corruptions. 
+We did a few modifications, such as read dataset, cuda visible device from ENV variables, fixed a small issue, etc. Please check the commits in [our cloned repo](https://github.com/boyang9602/NeRF-LOAM) for the details. 
+We also provide some docker files to build the running env, a script to build the docker image, and a script to run the evaluation on all LiDAR data corruptions. 
 Please check [our cloned repo](https://github.com/boyang9602/NeRF-LOAM) to build and evaluate. 
 
 [raw_results](./raw_results/) contains all the raw output from NeRF-LOAM. Note that NeRF-LOAM also produces the reconstruction of the scene, which are large files. We do not contain them in this git repo. 
@@ -14,7 +15,7 @@ Under corruption, the folder name indicates the corruption type (it is the clean
 [monitor.sh] is a monitor script to detect the failure of NeRF-LOAM processes. NeRF-LOAM requires high GPU memory (at least 24GB) and it may encounter "CUDA out of memory" issue or runtime errors where it outputs "Encouter a bug ...". It will hang and block the further experiments. This scripts detect the error messages from logs and kill the corresponding docker processes. So the run.sh script will schedule the run on the next corrupted data. This script should be registered as a crontab to be executed every 5 or 10 minutes. 
 
 ### Steps
-1. `./build_docker.sh` (to be done)
+1. `./build_docker.sh`
 2. `./run.sh`
 
 Note that NeRF-LOAM cannot produce the same results during different trials on the same data. So you are unlikely to get exact same results as ours. However, it should be similar in general. 
