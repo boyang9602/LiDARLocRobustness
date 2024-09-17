@@ -11,4 +11,4 @@ g++ -o eval_seq eval_seq.cpp matrix.h matrix.cpp
 ```
 Usage: ./eval_seq dataset sequence_id result_poses.txt start_frame (0 default), end_frame (-1, the last, by default)
 ```
-It will compare result_poses.txt with the ground truth of the sequence_id under [data/](./data/). You can only compare a subset of the sequence by specifying the start and end frame ids.
+It will compare result_poses.txt with the ground truth of the sequence_id under [data/](./data/). If you only want to compare a subset of the sequence, you can specify the start and end frame ids.
