@@ -21,3 +21,6 @@ The instructions for replicating the evaluation in our paper, as well as the nec
 We uploaded the raw results, i.e., the poses produced by subject systems, and the evaluation results, i.e., relative pose errors (RPE), under the corresponding folder. 
 
 The figures used in the paper are generated at https://colab.research.google.com/drive/1KWtEsUrdcGOSuh7NxSEXOpzioMnWu1JQ?usp=sharing. 
+
+# Evaluation
+The evaluation code and scripts are under [eval/](./eval/).
