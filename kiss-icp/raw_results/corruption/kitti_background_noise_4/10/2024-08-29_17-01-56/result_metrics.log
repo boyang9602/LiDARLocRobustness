@@ -1,0 +1,11 @@
+─────────────────────────── Results for KITTIOdometryDataset Sequence 10 ───────────────────────────
++---------------------------------+--------+-------+
+|                          Metric | Value  | Units |
++=================================+========+=======+
+|       Average Translation Error | 20.699 | %     |
+|        Average Rotational Error | 0.066  | deg/m |
+| Absolute Trajectory Error (ATE) | 55.034 | m     |
+| Absolute Rotational Error (ARE) | 0.331  | rad   |
+|               Average Frequency |   5    | Hz    |
+|                 Average Runtime |  173   | ms    |
++---------------------------------+--------+-------+

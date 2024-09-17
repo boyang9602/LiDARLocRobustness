@@ -1,0 +1,1 @@
+{'out_dir': './kitti_impulse_noise_radial_1/09', 'data': {'max_range': 100.0, 'min_range': 5.0, 'deskew': False}, 'registration': {'max_num_iterations': 500, 'convergence_criterion': 0.0001, 'max_num_threads': 0}, 'mapping': {'voxel_size': 1.0, 'max_points_per_voxel': 20}, 'adaptive_threshold': {'fixed_threshold': None, 'initial_threshold': 2.0, 'min_motion_th': 0.1}}
