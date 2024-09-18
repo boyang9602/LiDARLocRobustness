@@ -2,6 +2,8 @@
 This repo serves as the replication package for the paper "Evaluating and Improving the Robustness of LiDAR-based Localization and Mapping". 
 We generated 18 types of corruptions for KITTI Odometry LiDAR scans and evaluated 4 SOTA LiDAR-only SLAM systems and one SOTA LiDAR-based global localization system. 
 
+You can find the arXiv version of the paper at https://arxiv.org/abs/2409.10824. 
+
 # Corruption LiDAR data generation
 Since the generated LiDAR corruption data is too large, it is impractical to share them directly. 
 Please refer to [our code](https://github.com/boyang9602/perturb_pointcloud) for generating corrupted LiDAR data.  
