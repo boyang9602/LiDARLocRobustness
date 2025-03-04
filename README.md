@@ -1,8 +1,8 @@
 # LiDARLocRobustness
-This repo serves as the replication package for the paper "Evaluating and Improving the Robustness of LiDAR-based Localization and Mapping". 
+This repo serves as the replication package for the paper "Robustness of LiDAR-Based Pose Estimation: Evaluating and Improving Odometry and Localization Under Common Point Cloud Corruptions". 
 We generated 18 types of corruptions for KITTI Odometry LiDAR scans and evaluated 4 SOTA LiDAR-only SLAM systems and one SOTA LiDAR-based global localization system. 
 
-You can find the arXiv version of the paper at https://arxiv.org/abs/2409.10824. 
+You can find the arXiv preprint of the paper at https://arxiv.org/abs/2409.10824. 
 
 # Corruption LiDAR data generation
 Since the generated LiDAR corruption data is too large, it is impractical to share them directly. 
