@@ -1,6 +1,6 @@
 # LiDARLocRobustness
 This repo serves as the replication package for the paper "Robustness of LiDAR-Based Pose Estimation: Evaluating and Improving Odometry and Localization Under Common Point Cloud Corruptions". 
-We generated 18 types of corruptions for KITTI Odometry LiDAR scans and evaluated 4 SOTA LiDAR-only SLAM systems and one SOTA LiDAR-based global localization system. 
+We generated 18 types of corruptions for KITTI Odometry LiDAR scans and evaluated 4 SOTA LiDAR-only Odometry systems and one SOTA LiDAR-based global localization system. 
 
 You can find the arXiv preprint of the paper at https://arxiv.org/abs/2409.10824. 
 
@@ -9,7 +9,7 @@ Since the generated LiDAR corruption data is too large, it is impractical to sha
 Please refer to [our code](https://github.com/boyang9602/perturb_pointcloud) for generating corrupted LiDAR data.  
 
 # Subject Systems
-In this work, we studied the robustness of four LiDAR-only SLAM systems, 
+In this work, we studied the robustness of four LiDAR-only Odometry systems, 
 [MULLS](https://github.com/YuePanEdward/MULLS), 
 [kiss-icp](https://github.com/PRBonn/kiss-icp), 
 [Delora](https://github.com/leggedrobotics/delora) and 
